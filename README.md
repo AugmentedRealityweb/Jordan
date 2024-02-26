@@ -8,7 +8,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background-image: url('fundal.jpg');
+      background-image: url('bkgd.jpg');
       background-size: cover;
       background-position: center;
       display: flex;
@@ -72,8 +72,8 @@
 <div class="model-container">
   <div class="model-section">
     <model-viewer
-      src="noodle.glb"
-      ios-src="noodle.usdz"
+      src="jordan.glb"
+      ios-src="jordan.usdz"
       ar
       ar-modes="webxr scene-viewer quick-look"
       camera-controls
@@ -81,7 +81,7 @@
       environment-image="neutral"
       shadow-intensity="1"
       loading="lazy"
-      alt="Noodle"
+      alt="Jordan"
       min-camera-orbit="auto 0deg 0deg"
       max-camera-orbit="auto 80deg auto">
       <button slot="ar-button" class="ar-button">Activează modul AR</button>
